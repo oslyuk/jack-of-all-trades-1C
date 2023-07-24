@@ -93,7 +93,7 @@
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура</value>
+        <value>Материал</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
