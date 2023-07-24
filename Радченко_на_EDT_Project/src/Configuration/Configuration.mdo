@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac2ec191-fab5-467f-85f0-35e429eae4d5">
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бытовые услуги</value>
+  </synonym>
+  <comment>Конфигурация создана по книге Радченко &quot;Методическое пособие по разработке, на EDT&quot;</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d208f502-0ce5-453e-99e8-056a932c89e6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e7e3f982-b643-4b05-919c-443b44d98015"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0a6ff25c-56f0-46c4-92ad-4d8da41aa921"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="117baced-a813-4390-be97-06f6b414aa32"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b1af92d2-6b3a-42c5-b7d1-3b38c03acbc4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="18e7a8db-ef04-4827-ad48-dcbbd6784435"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e0fe01a2-2e82-4711-b872-209fe77398cc"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Ослюк А.С,</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Конфигурация создана по книге Радченко &quot;Методическое пособие по разработке, на EDT&quot;</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright (C) Ослюк А.С, 2023. Все права защищены.</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>Иркутская обл., г. Шелехов</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="2c764d05-8a81-4500-bc95-75b46d5db345">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <subsystems>Subsystem.РасчетЗарпалаты</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
+  <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ОказаниеУслуги</documents>
+</mdclass:Configuration>
