@@ -14,4 +14,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.ОказаниеУслуги</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
 </mdclass:Subsystem>

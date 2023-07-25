@@ -15,4 +15,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Склады</content>
   <content>Document.ОказаниеУслуги</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
 </mdclass:Subsystem>
