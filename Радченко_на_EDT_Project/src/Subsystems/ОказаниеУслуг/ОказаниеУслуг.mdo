@@ -17,4 +17,5 @@
   <content>Document.ОказаниеУслуги</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
+  <content>InformationRegister.Цены</content>
 </mdclass:Subsystem>
