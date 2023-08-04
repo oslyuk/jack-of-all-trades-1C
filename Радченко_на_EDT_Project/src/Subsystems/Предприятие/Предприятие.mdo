@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Предприятие</picture>
   </picture>
+  <content>DataProcessor.РаботаСЗапросами</content>
 </mdclass:Subsystem>
