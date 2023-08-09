@@ -20,4 +20,10 @@
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Report.РеестрДокументовОказаниеУслуги</content>
+  <content>Report.РейтингУслуг</content>
+  <content>Report.ВыручкаМастеров</content>
+  <content>Report.ПереченьУслуг</content>
+  <content>Report.РейтингКлиентов</content>
+  <content>Report.Универсальный</content>
 </mdclass:Subsystem>

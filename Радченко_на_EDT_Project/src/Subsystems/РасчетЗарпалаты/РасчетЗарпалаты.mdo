@@ -11,4 +11,5 @@
     <picture>CommonPicture.РасчетЗарплаты</picture>
   </picture>
   <content>Catalog.Сотрудники</content>
+  <content>Report.ВыручкаМастеров</content>
 </mdclass:Subsystem>
