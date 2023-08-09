@@ -16,4 +16,5 @@
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
 </mdclass:Subsystem>
