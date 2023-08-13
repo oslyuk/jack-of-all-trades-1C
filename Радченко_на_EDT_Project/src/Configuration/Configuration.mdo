@@ -71,6 +71,8 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
@@ -81,9 +83,12 @@
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.Универсальный</reports>
+  <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

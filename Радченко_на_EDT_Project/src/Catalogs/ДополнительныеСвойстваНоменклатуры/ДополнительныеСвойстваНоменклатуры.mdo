@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad3d51e8-d546-4fda-9de5-dee7553f6e62">
+  <producedTypes>
+    <objectType typeId="2a481a1d-c125-4101-a405-18ce98ba9a1c" valueTypeId="4e4c7049-d812-40aa-8396-d4343d7d325d"/>
+    <refType typeId="519e0b2f-3e26-430f-8840-67e93ed09449" valueTypeId="e89b8c03-124f-452d-9ced-321d24c0fd01"/>
+    <selectionType typeId="4e4add5d-6ad5-4587-b5bc-5e0bcfba4115" valueTypeId="0f1975c4-a201-4dbd-94be-d4f0487b14be"/>
+    <listType typeId="7fe40115-a60c-4053-94ec-6571d1972e8e" valueTypeId="b58d9249-e59a-4b71-9ef7-1054b30dbe57"/>
+    <managerType typeId="29b2b46d-8e80-4fd5-b047-5e53f52b9ed0" valueTypeId="2a6f83e5-033d-4baa-a967-07f1b73fa96d"/>
+  </producedTypes>
+  <name>ДополнительныеСвойстваНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеСвойстваНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДополнительныеСвойстваНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительное свойство</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.СвойстваНоменклатуры</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДополнительныеСвойстваНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="49335b6d-130f-4144-94dc-9d981460dd19">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

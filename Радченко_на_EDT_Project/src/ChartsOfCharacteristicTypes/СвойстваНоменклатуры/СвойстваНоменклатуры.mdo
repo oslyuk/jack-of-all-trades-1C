@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52de1213-68e4-473a-be0b-f8ff712973f5">
+  <producedTypes>
+    <objectType typeId="0352b758-a713-4b45-ac31-5632afc03014" valueTypeId="079c5f62-06f8-442d-a82c-b22c954f4cad"/>
+    <refType typeId="e4fb1858-195e-4a67-aaab-692476557c01" valueTypeId="7bf7513a-16b8-42f5-ba39-6a6afa859861"/>
+    <selectionType typeId="f86c82ab-cb0a-443d-a7a5-b5f5ef993c38" valueTypeId="32cbc4a5-79de-470a-8a18-9ebf9d4aaa7f"/>
+    <listType typeId="142fe9ec-e347-4fa5-825b-2d8d601c7f2e" valueTypeId="3e260da0-2e1d-4261-af60-5e92670429cd"/>
+    <managerType typeId="790edd64-ab8b-4f86-9ded-815aa4492743" valueTypeId="eff8ae2e-61d8-40b5-8ab9-5d8bbe9be720"/>
+    <containerType typeId="30da9d8a-d48d-48ed-afd6-cf06d7df8ece" valueTypeId="3db51d30-a7b7-4a86-b443-78b67a2e1e69"/>
+  </producedTypes>
+  <name>СвойстваНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Свойство номенклатуры</value>
+  </objectPresentation>
+  <characteristicExtValues>Catalog.ДополнительныеСвойстваНоменклатуры</characteristicExtValues>
+  <type>
+    <types>String</types>
+    <types>Number</types>
+    <types>Date</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ДополнительныеСвойстваНоменклатуры</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.СвойстваНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="d87608b0-ae24-4c2f-b77a-576991b9338e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>
