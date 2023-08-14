@@ -73,6 +73,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
@@ -84,6 +85,7 @@
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.Универсальный</reports>
   <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
@@ -91,4 +93,7 @@
   <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
 </mdclass:Configuration>

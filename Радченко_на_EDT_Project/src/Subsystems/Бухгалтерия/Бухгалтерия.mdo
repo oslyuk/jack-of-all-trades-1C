@@ -22,4 +22,8 @@
   <content>Report.РейтингУслуг</content>
   <content>Report.ПереченьУслуг</content>
   <content>Report.РейтингКлиентов</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Основной</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
 </mdclass:Subsystem>

@@ -816,6 +816,17 @@
           <common>true</common>
         </userVisible>
       </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>AccountingRegister.Управленческий.StandardCommand.OpenByRecorder</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <group>FormNavigationPanelGoTo</group>
+        <index>3</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
   </commandInterface>
