@@ -26,4 +26,5 @@
   <content>ChartOfAccounts.Основной</content>
   <content>AccountingRegister.Управленческий</content>
   <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.НачисленияСотрудникам</content>
 </mdclass:Subsystem>

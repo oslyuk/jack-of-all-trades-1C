@@ -85,18 +85,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <baseDimension>true</baseDimension>
   </dimensions>
-  <recalculations uuid="ca650cc7-2692-4d78-a199-3f47cd52c24e">
+  <recalculations uuid="ff1677d0-1482-4380-9340-dc6e702ccc29">
     <producedTypes>
-      <recordType typeId="db9451aa-c0f9-4f89-a9e8-e5637f27a49d" valueTypeId="9730b1bb-503b-4723-9f48-1413bd6564ef"/>
-      <managerType typeId="403898fd-2da2-47e5-ad44-998c43f0340a" valueTypeId="5e0b8ad8-ffd0-4e70-ae4d-6eb7fa79a56d"/>
-      <recordSetType typeId="a2b40d01-6e03-4afd-8f1c-624ad6de64e1" valueTypeId="9125ba72-b70d-4077-a38d-87df5b181875"/>
+      <recordType typeId="23a60de4-43c1-49ec-9c55-6cdd97d616cf" valueTypeId="66286b52-cd3b-47d0-8122-ec4b57ca6779"/>
+      <managerType typeId="e734bdc5-5bdd-45f5-b094-adc3d472e83d" valueTypeId="2202a7fe-b4d2-4141-a68d-e21593a973fe"/>
+      <recordSetType typeId="56474f09-56b3-487d-af72-7a63c2391f1c" valueTypeId="289fdffb-86bd-42e6-8b2a-5bea070c0a9f"/>
     </producedTypes>
     <name>Перерасчет</name>
     <synonym>
       <key>ru</key>
       <value>Перерасчет</value>
     </synonym>
-    <dimensions uuid="23f18dbb-f3fa-4f56-bde0-1ed5576a2dea">
+    <dimensions uuid="556cc0c9-2dfb-4b31-8adc-5cbb250506ed">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>

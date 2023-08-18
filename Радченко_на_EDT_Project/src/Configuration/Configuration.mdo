@@ -67,6 +67,7 @@
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -77,6 +78,7 @@
   <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ОказаниеУслуги</documents>
+  <documents>Document.НачисленияСотрудникам</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.Материалы</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
@@ -87,6 +89,9 @@
   <reports>Report.Универсальный</reports>
   <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <reports>Report.Перерасчет</reports>
+  <reports>Report.НачисленияСотрудникам</reports>
+  <reports>Report.ДиаграммаНачислений</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
