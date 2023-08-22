@@ -83,6 +83,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.НачисленияСотрудникам</documents>
+  <documents>Document.ВводНачальныхОстатковНоменклатуры</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.Материалы</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
