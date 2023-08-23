@@ -10,8 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
-  <content>Catalog.Клиенты</content>
-  <content>Catalog.Номенклатура</content>
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.ОказаниеУслуги</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
@@ -28,4 +26,5 @@
   <content>Report.ОборотноСальдоваяВедомость</content>
   <content>Report.НачисленияСотрудникам</content>
   <content>Document.ВводНачальныхОстатковНоменклатуры</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
 </mdclass:Subsystem>

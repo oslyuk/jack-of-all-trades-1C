@@ -10,10 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОказаниеУслуг</picture>
   </picture>
-  <content>Catalog.Клиенты</content>
-  <content>Catalog.Сотрудники</content>
-  <content>Catalog.Номенклатура</content>
-  <content>Catalog.Склады</content>
   <content>Document.ОказаниеУслуги</content>
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
@@ -26,5 +22,4 @@
   <content>Report.ПереченьУслуг</content>
   <content>Report.РейтингКлиентов</content>
   <content>Report.Универсальный</content>
-  <content>Report.ОстаткиМатериаловПоСвойствам</content>
 </mdclass:Subsystem>

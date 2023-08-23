@@ -10,10 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РасчетЗарплаты</picture>
   </picture>
-  <content>Catalog.Сотрудники</content>
   <content>Report.ВыручкаМастеров</content>
   <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
-  <content>Catalog.ВидыГрафиковРаботы</content>
   <content>InformationRegister.ГрафикиРаботы</content>
   <content>CalculationRegister.Начисления</content>
   <content>Document.НачисленияСотрудникам</content>

@@ -10,7 +10,7 @@
   <name>ВариантыНоменклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Название</value>
+    <value>Варианты номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВариантыНоменклатуры.StandardAttribute.Code</inputByString>
