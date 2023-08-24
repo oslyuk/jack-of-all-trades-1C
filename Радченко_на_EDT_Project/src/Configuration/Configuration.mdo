@@ -75,8 +75,11 @@
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <commonModules>CommonModule.Обмен</commonModules>
+  <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
+  <constants>Constant.ПрефиксНумерации</constants>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
