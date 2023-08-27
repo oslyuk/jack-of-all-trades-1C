@@ -106,6 +106,7 @@
   <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ДиаграммаНачислений</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
