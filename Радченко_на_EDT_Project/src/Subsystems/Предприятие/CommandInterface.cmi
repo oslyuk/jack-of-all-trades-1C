@@ -37,6 +37,42 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>ExchangePlan.Филиалы.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ExchangePlan.Филиалы.StandardCommand.Create</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.ОбщиеНастройки.StandardCommand.Open</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбменДанными.StandardCommand.Open</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -45,11 +81,13 @@
       <commands>Catalog.Клиенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Склады.StandardCommand.OpenList</commands>
+      <commands>ExchangePlan.Филиалы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
+      <commands>ExchangePlan.Филиалы.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Клиенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>

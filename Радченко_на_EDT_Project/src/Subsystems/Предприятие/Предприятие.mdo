@@ -20,4 +20,7 @@
   <content>Catalog.Склады</content>
   <content>Catalog.ВидыГрафиковРаботы</content>
   <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
+  <content>ExchangePlan.Филиалы</content>
+  <content>DataProcessor.ОбменДанными</content>
+  <content>CommonForm.ОбщиеНастройки</content>
 </mdclass:Subsystem>

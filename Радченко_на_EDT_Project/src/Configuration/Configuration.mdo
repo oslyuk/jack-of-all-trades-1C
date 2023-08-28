@@ -80,6 +80,7 @@
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <constants>Constant.ПрефиксНумерации</constants>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
