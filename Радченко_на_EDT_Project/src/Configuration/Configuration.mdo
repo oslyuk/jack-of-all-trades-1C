@@ -70,6 +70,7 @@
   <roles>Role.Мастер</roles>
   <roles>Role.Расчетчик</roles>
   <roles>Role.Бухгалтер</roles>
+  <filterCriteria>FilterCriterion.ОказаниеУслуги</filterCriteria>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
