@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3c6ef42-ec4f-485e-8015-5222edfd9aca" thisNode="a642d476-8585-431f-aecf-205ccd1b3a61">
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a06af211-185f-49e4-ab14-98b28f2f5a0f" thisNode="1d978e1a-7b23-45a3-88f8-cd0c86b7268e">
   <producedTypes>
-    <objectType typeId="29727007-91b2-4300-94b6-11553a7a3e93" valueTypeId="e5e2dd5d-7db8-4a14-89ca-64d3cb2d084f"/>
-    <refType typeId="4a451615-b17a-41d5-8ef1-408e00e41ff9" valueTypeId="71300ebd-ecff-4f56-9ab9-c41711068715"/>
-    <selectionType typeId="585203c5-0cae-4ffe-b50b-05c52569c0ef" valueTypeId="0af1461d-6401-4fcd-9c1d-58c329d0a758"/>
-    <listType typeId="86abda32-eb7f-45d8-b5f2-9e59e3687ebc" valueTypeId="8a246b26-2060-44e7-9445-792be27f73bf"/>
-    <managerType typeId="363622b9-29f9-4fbf-af8f-c8fd67d2da72" valueTypeId="6b731c60-9ce4-43cd-8f9a-2a711cafd014"/>
+    <objectType typeId="20ac55c9-a140-40b6-88c5-ac9fbee876e8" valueTypeId="474352ba-e1ca-4555-85bb-3941455d971d"/>
+    <refType typeId="1cf23247-21d2-4b1c-a435-60ff80cf86b3" valueTypeId="e5e9fdec-0513-430c-8e0b-8b9584f00575"/>
+    <selectionType typeId="a6fac943-25d9-4830-b54b-09d11a5a3e1e" valueTypeId="1fcaadb2-b950-4620-9612-d1e42e55703d"/>
+    <listType typeId="0e334e2f-9206-4afd-b044-653b5841eaeb" valueTypeId="9f7e2b26-2276-46ea-9d24-203c8c8a7ef4"/>
+    <managerType typeId="b287aab8-881f-43a2-b034-f97bdb2101c5" valueTypeId="62f7cde0-71f5-4d8a-b238-8621ebb50af1"/>
   </producedTypes>
-  <name>Филиалы</name>
+  <name>Отделения</name>
   <synonym>
     <key>ru</key>
-    <value>Филиалы</value>
+    <value>Отделения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ExchangePlan.Филиалы.StandardAttribute.Code</inputByString>
-  <inputByString>ExchangePlan.Филиалы.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Отделения.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.Отделения.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -80,34 +80,10 @@
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>ExchangePlan.Филиалы.Form.ФормаУзла</defaultObjectForm>
-  <defaultListForm>ExchangePlan.Филиалы.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="d72a58da-7239-40f8-9ba3-d11e7db5eef2">
-    <name>Главный</name>
-    <synonym>
-      <key>ru</key>
-      <value>Главный</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="d24778e6-de3a-4fdb-9f4f-452bbf7f461c">
-    <name>ФормаУзла</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма узла</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="723ec5cc-ed93-4407-9de8-9a509b56b9f9">
+  <distributedInfoBase>true</distributedInfoBase>
+  <forms uuid="073c1f84-cab3-4fdb-98dd-2440f1034925">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

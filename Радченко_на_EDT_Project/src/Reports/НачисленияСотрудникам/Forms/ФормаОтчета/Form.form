@@ -221,6 +221,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
   </attributes>
   <attributes>
     <name>ДанныеРасшифровки</name>

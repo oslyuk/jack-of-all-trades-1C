@@ -23,4 +23,6 @@
   <content>ExchangePlan.Филиалы</content>
   <content>DataProcessor.ОбменДанными</content>
   <content>CommonForm.ОбщиеНастройки</content>
+  <content>ExchangePlan.Отделения</content>
+  <content>DataProcessor.ОбменСОтделениями</content>
 </mdclass:Subsystem>

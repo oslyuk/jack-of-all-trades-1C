@@ -22,8 +22,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <characteristicExtValues>Catalog.Субконто</characteristicExtValues>
   <type>
-    <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.Субконто</types>
   </type>
   <foldersOnTop>true</foldersOnTop>

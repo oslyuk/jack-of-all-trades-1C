@@ -232,9 +232,6 @@
 									<d7p1:borderColor>auto</d7p1:borderColor>
 								</d7p1:labelArea>
 								<d7p1:color>#FFFFFF</d7p1:color>
-								<d7p1:border width="1" gap="false">
-									<v8ui:style xsi:type="v8ui:ChartLineType">None</v8ui:style>
-								</d7p1:border>
 								<d7p1:borderColor>auto</d7p1:borderColor>
 								<d7p1:displayAreaBegin>0.0</d7p1:displayAreaBegin>
 								<d7p1:displayAreaEnd>1.0</d7p1:displayAreaEnd>
@@ -256,9 +253,6 @@
 									<d7p1:borderColor>auto</d7p1:borderColor>
 								</d7p1:labelArea>
 								<d7p1:color>#32CD32</d7p1:color>
-								<d7p1:border width="1" gap="false">
-									<v8ui:style xsi:type="v8ui:ChartLineType">None</v8ui:style>
-								</d7p1:border>
 								<d7p1:borderColor>auto</d7p1:borderColor>
 								<d7p1:displayAreaBegin>0.0</d7p1:displayAreaBegin>
 								<d7p1:displayAreaEnd>1.0</d7p1:displayAreaEnd>
@@ -280,9 +274,6 @@
 									<d7p1:borderColor>auto</d7p1:borderColor>
 								</d7p1:labelArea>
 								<d7p1:color>#FF00FF</d7p1:color>
-								<d7p1:border width="1" gap="false">
-									<v8ui:style xsi:type="v8ui:ChartLineType">None</v8ui:style>
-								</d7p1:border>
 								<d7p1:borderColor>auto</d7p1:borderColor>
 								<d7p1:displayAreaBegin>0.0</d7p1:displayAreaBegin>
 								<d7p1:displayAreaEnd>1.0</d7p1:displayAreaEnd>
@@ -300,6 +291,8 @@
 							<dcsset:field>Мастер</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
