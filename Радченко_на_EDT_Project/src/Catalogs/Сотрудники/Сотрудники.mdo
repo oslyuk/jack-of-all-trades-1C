@@ -123,6 +123,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
   <tabularSections uuid="3c8dee17-6ad3-4ef4-b647-10c12f947bc6">
     <producedTypes>
       <objectType typeId="e023e8fc-28c6-49c5-a10b-462c03a581cd" valueTypeId="cc022aa6-fee5-4731-bf20-3cafa5fb60f6"/>
@@ -202,4 +203,22 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="e59a3db4-0702-48ae-89a2-a20cf11ca124">
+    <name>ФормаВыбораОказаниеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора оказание услуги</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70d9eb0f-dbbb-47f0-a385-f7cc2705edb9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
