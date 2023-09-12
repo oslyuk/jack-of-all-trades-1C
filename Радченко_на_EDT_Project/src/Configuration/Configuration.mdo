@@ -58,7 +58,7 @@
   <subsystems>Subsystem.Бухгалтерия</subsystems>
   <subsystems>Subsystem.ОказаниеУслуг</subsystems>
   <subsystems>Subsystem.Предприятие</subsystems>
-  <subsystems>Subsystem.РасчетЗарпалаты</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
   <subsystems>Subsystem.УчетМатериалов</subsystems>
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>

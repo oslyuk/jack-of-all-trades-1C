@@ -101,7 +101,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Адрес</name>
+    <name>Родитель</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -109,10 +109,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Адрес</segments>
+      <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
-      <name>АдресРасширеннаяПодсказка</name>
+      <name>РодительРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -127,7 +127,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>АдресКонтекстноеМеню</name>
+      <name>РодительКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -137,7 +137,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>Enter</editMode>
+    <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -145,22 +145,63 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
+      <clearButton>true</clearButton>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ВидНоменклатуры</name>
+    <id>10</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВидНоменклатуры</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ВидНоменклатурыРасширеннаяПодсказка</name>
+      <id>12</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВидНоменклатурыКонтекстноеМеню</name>
+      <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>RadioButtonField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>Tumbler</radioButtonsType>
       <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Суздаль</value>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыНоменклатуры.EnumValue.Материал</value>
         </value>
       </choiceList>
       <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Иркутск</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Москва</value>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыНоменклатуры.EnumValue.Услуга</value>
         </value>
       </choiceList>
     </extInfo>
@@ -176,10 +217,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -193,7 +230,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Клиенты</types>
+      <types>CatalogObject.Номенклатура</types>
     </valueType>
     <view>
       <common>true</common>
@@ -205,17 +242,7 @@
     <savedData>true</savedData>
   </attributes>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>FilterCriterion.ОказаниеУслуги.StandardCommand.OpenByValue</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>

@@ -15,5 +15,5 @@
   <content>Report.Перерасчет</content>
   <content>Document.НачисленияСотрудникам</content>
   <content>Report.ДиаграммаНачислений</content>
-  <content>Subsystem.РасчетЗарпалаты</content>
+  <content>Subsystem.РасчетЗарплаты</content>
 </mdclass:FunctionalOption>

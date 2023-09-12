@@ -292,7 +292,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.РасчетЗарпалаты</name>
+		<name>Subsystem.РасчетЗарплаты</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

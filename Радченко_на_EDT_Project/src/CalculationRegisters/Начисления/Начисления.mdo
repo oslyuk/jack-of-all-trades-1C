@@ -23,6 +23,10 @@
   <scheduleDate>InformationRegister.ГрафикиРаботы.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения в регистре Начисления</value>
+  </extendedListPresentation>
   <resources uuid="fdaf7d3a-564c-4e93-a9cb-78ff4774d3fc">
     <name>Результат</name>
     <synonym>

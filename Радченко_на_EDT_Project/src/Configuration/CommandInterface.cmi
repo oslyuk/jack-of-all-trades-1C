@@ -4,7 +4,7 @@
     <subsystems>Subsystem.УчетМатериалов</subsystems>
     <subsystems>Subsystem.ОказаниеУслуг</subsystems>
     <subsystems>Subsystem.Бухгалтерия</subsystems>
-    <subsystems>Subsystem.РасчетЗарпалаты</subsystems>
+    <subsystems>Subsystem.РасчетЗарплаты</subsystems>
     <subsystems>Subsystem.Предприятие</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>
